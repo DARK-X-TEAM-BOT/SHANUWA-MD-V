@@ -5,8 +5,10 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "QTMWiKoI#4_ugoDhv8wVlvGYvPINqmHpW8Kx-qls3yrxh_K8VGU8",
-MONGODB: process.env.MONGODB || "mongodb+srv://shanuawatech:@-Render-88@cluster0.he454.mongodb.net/",//enter mongo db url
-ALIVE_IMG: process.env.ALIVE_IMG || "https://bit.ly/4924UVg"
-ALIVE-MSG: process.env.ALIVE_MSG || "Hello im alive now"
+SESSION_ID: process.env.SESSION_ID|| "jnA03aqT#-sYamnIuOEw5x87tWBDWGB2mvQPc92X5WZrrFIUyzLA",
+MONGODB: process.env.MONGODB|| "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://iili.io/dbFAKoG.jpg",
+AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
+AUTO_BIO:"true",
+AUTO_VOICE:"true"
 };
